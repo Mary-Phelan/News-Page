@@ -25,6 +25,15 @@ nav#main li{
   nav#main li {
     font-size: 100%;
   }
+
+  nav#main {
+    left: 2%;
+    height: 40px;
+  }
+
+  .full-width-image {
+    width: 50%;
+  }
 }
 
 img.volcano {
