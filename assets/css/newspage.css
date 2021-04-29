@@ -15,11 +15,16 @@ nav#main{
   left: 32%;
 }
 
-
 nav#main li{
   display: inline-block;
   margin-right: 20px;
   font-size: 250%;
+}
+
+@media handheld, only screen and (max-width: 767px){
+  nav#main li {
+    font-size: 100%;
+  }
 }
 
 img.volcano {
