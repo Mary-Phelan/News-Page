@@ -1,0 +1,65 @@
+body{
+  font-family: 'ArchivoNarrowRegular';
+  font-weight: normal;
+  font-style: normal;
+  background-color: azure;
+  color: rgb(23, 34, 94);
+}
+
+nav#main{
+  height: 80px;
+  position: fixed;
+  top: 0;
+  background-color: rgba(119, 136, 153, 0.363);
+  float: none;
+  left: 32%;
+}
+
+
+nav#main li{
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 250%;
+}
+
+img.volcano {
+  width: 600px;
+  height: 400px;
+}
+
+img.full-width-image{
+  width:100%;
+}
+
+a{
+  color: rgb(23, 34, 94);
+  font-size: 110%;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #6072a7;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(36, 60, 138);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.colonial-ghosts {
+  width: 800px;
+  height: 450px;
+}
+
+.solid {
+  border-style: solid;
+  border-bottom: 10px;
+  border-color: rgb(30, 52, 122);
+}
+
+div#main-news {
+  background-color:pink;
+}
